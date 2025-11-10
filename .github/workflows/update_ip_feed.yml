@@ -27,6 +27,6 @@ jobs:
         run: |
           git config --global user.email "beslinnikola@gmail.com"
           git config --global user.name "IT3ngineer"
-          git add AzureBlockListIPs.txt
+          git add AzureBlockListIPs.txt Fortigate_URL_List.txt
           git commit -m "Auto-update Azure IP feed" || echo "No changes to commit"
           git push
