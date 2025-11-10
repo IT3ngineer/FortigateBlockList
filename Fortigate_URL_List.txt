@@ -33,3 +33,93 @@
         set fqdn "*.microsoftonline-p.com"
     next
 
+    edit "Azure_Domain_Wildcard_8"
+        set type fqdn
+        set fqdn "*.portal.azure.com"
+    next
+
+    edit "Azure_Domain_Wildcard_9"
+        set type fqdn
+        set fqdn "*.hosting.portal.azure.net"
+    next
+
+    edit "Azure_Domain_Wildcard_10"
+        set type fqdn
+        set fqdn "*.reactblade.portal.azure.net"
+    next
+
+    edit "Azure_Domain_Wildcard_11"
+        set type fqdn
+        set fqdn "*.ext.azure.com"
+    next
+
+    edit "Azure_Domain_Wildcard_12"
+        set type fqdn
+        set fqdn "*.graph.windows.net"
+    next
+
+    edit "Azure_Domain_Wildcard_13"
+        set type fqdn
+        set fqdn "*.graph.microsoft.com"
+    next
+
+    edit "Azure_Domain_Wildcard_14"
+        set type fqdn
+        set fqdn "*.account.microsoft.com"
+    next
+
+    edit "Azure_Domain_Wildcard_15"
+        set type fqdn
+        set fqdn "*.bmx.azure.com"
+    next
+
+    edit "Azure_Domain_Wildcard_16"
+        set type fqdn
+        set fqdn "*.subscriptionrp.trafficmanager.net"
+    next
+
+    edit "Azure_Domain_Wildcard_17"
+        set type fqdn
+        set fqdn "*.signup.azure.com"
+    next
+
+    edit "Azure_Domain_Wildcard_18"
+        set type fqdn
+        set fqdn "*.asazure.windows.net (Analysis Services)"
+    next
+
+    edit "Azure_Domain_Wildcard_19"
+        set type fqdn
+        set fqdn "*.azconfig.io (AzConfig Service)"
+    next
+
+    edit "Azure_Domain_Wildcard_20"
+        set type fqdn
+        set fqdn "*.aad.azure.com (Microsoft Entra)"
+    next
+
+    edit "Azure_Domain_Wildcard_21"
+        set type fqdn
+        set fqdn "*.aadconnecthealth.azure.com (Microsoft Entra)"
+    next
+
+    edit "Azure_Domain_Wildcard_22"
+        set type fqdn
+        set fqdn "*.applicationinsights.azure.com (Application Insights Service)"
+    next
+
+    edit "Azure_Domain_Wildcard_23"
+        set type fqdn
+        set fqdn "*.arc.azure.net (Azure Arc)"
+    next
+
+    edit "Azure_Domain_Wildcard_24"
+        set type fqdn
+        set fqdn "*.database.windows.net (SQL Server)"
+    next
+
+    edit "Azure_Domain_Wildcard_25"
+        set type fqdn
+        set fqdn "*.msidentity.com (Microsoft Entra)"
+    next
+
