@@ -1,0 +1,35 @@
+    edit "Azure_Domain_Wildcard_1"
+        set type fqdn
+        set fqdn "*.aadcdn.msftauth.net"
+    next
+
+    edit "Azure_Domain_Wildcard_2"
+        set type fqdn
+        set fqdn "*.aadcdn.msftauthimages.net"
+    next
+
+    edit "Azure_Domain_Wildcard_3"
+        set type fqdn
+        set fqdn "*.aadcdn.msauthimages.net"
+    next
+
+    edit "Azure_Domain_Wildcard_4"
+        set type fqdn
+        set fqdn "*.logincdn.msftauth.net"
+    next
+
+    edit "Azure_Domain_Wildcard_5"
+        set type fqdn
+        set fqdn "*.msauth.net"
+    next
+
+    edit "Azure_Domain_Wildcard_6"
+        set type fqdn
+        set fqdn "*.aadcdn.microsoftonline-p.com"
+    next
+
+    edit "Azure_Domain_Wildcard_7"
+        set type fqdn
+        set fqdn "*.microsoftonline-p.com"
+    next
+
