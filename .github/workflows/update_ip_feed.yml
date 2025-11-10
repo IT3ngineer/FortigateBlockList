@@ -1,0 +1,29 @@
+name: Update Azure Block IP Feed
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Runs every 6 hours (UTC)
+  workflow_dispatch:       # Allows manual run in the GitHub UI
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run resolver script
+        run: python resolve_to_ips.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Action"
+          git add AzureBlockListIPs.txt
+          git commit -m "Auto-update Azure IP feed" || echo "No changes to commit"
+          git push
