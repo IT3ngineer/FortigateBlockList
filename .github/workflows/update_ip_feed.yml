@@ -6,7 +6,6 @@ permissions:
 on:
   schedule:
     - cron: "*/15 * * * *"   # runs every 15 minutes
-  workflow_dispatch:       # Allows manual run in the GitHub UI
 
 jobs:
   update-feed:
